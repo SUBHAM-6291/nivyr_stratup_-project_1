@@ -23,7 +23,7 @@ const ThirdSection: React.FC = () => {
         <div className="w-full md:w-1/2">
           <div className="p-2 sm:p-4 rounded-lg">
             <h2
-              className="text-[18px] font-normal leading-[30px] tracking-[0%] mb-4"
+              className="text-[30px] font-normal leading-[30px] tracking-[0%] mb-4 text-center"
               style={{ color: "#FFFFFF" }}
             >
               About Tala
@@ -57,7 +57,7 @@ const ThirdSection: React.FC = () => {
         </div>
       </div>
       <div className="mt-4 sm:mt-6">
-       
+        <div className="p-2 sm:p-4 rounded-lg"></div>
       </div>
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4 sm:mt-6">
         <div className="w-full sm:w-1/2 relative">
@@ -79,11 +79,11 @@ const ThirdSection: React.FC = () => {
       </div>
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4 sm:mt-6">
         <div className="w-full sm:w-1/2">
-          <div className="relative w-full max-w-[560px] h-auto aspect-[560/315]">
+          <div className="relative w-full aspect-[840/365]">
             {isVideoPlaying ? (
               <iframe
-                width="560"
-                height="315"
+                width="100%"
+                height="100%"
                 src="https://www.youtube.com/embed/-3DO3WmoQVM?si=EH7opEC-E-dIKC8G&autoplay=1"
                 title="YouTube video player"
                 frameBorder="0"
@@ -119,12 +119,12 @@ const ThirdSection: React.FC = () => {
           </div>
         </div>
         <div className="w-full sm:w-1/2">
-          <div className="p-2 sm:p-4 rounded-lg">
+          <div className="p-2 sm:p-4 rounded-lg h-full flex flex-col justify-center">
             <h3
-              className="text-[18px] font-normal leading-[30px] tracking-[0%] mb-4"
+              className="text-[30px] font-normal leading-[30px] tracking-[0%] mb-4 text-center"
               style={{ color: "#FFFFFF" }}
             >
-              Festival Video Highlights
+              Discover Tala
             </h3>
             <p
               className="text-[16px] sm:text-[18px] font-normal leading-[30px] tracking-[0%]"
@@ -133,11 +133,58 @@ const ThirdSection: React.FC = () => {
               Tala Prattoy upholds the art aspects of Durga Puja. Essence of
               creativity combining the tools and methods of art and art
               installations interpreting the formative stages of the festival.
-              This video captures the vibrant essence of our celebrations,
-              showcasing the artistic installations and cultural significance
-              of Durga Puja. We are committed to transforming public spaces
-              into art venues, making this unique art form accessible globally.
+              Tala Prattoy’s work emphasis has always been on Durga Puja as a
+              specific art genre where the public space is being transformed
+              into an art venue. We are committed to make that art global.Tala
+              Prattoy upholds the art aspects of Durga Puja. Essence of
+              creativity combining the tools and methods of art and art
+              installations interpreting the formative stages of the festival.
+              Tala Prattoy’s work emphasis has always been on Durga Puja as a
+              specific art genre where the public space is being transformed
+              into an art venue. We are committed to make that art global.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="mt-4 sm:mt-6">
+        <div
+          className="max-w-[1200px] mx-auto rounded-lg shadow-md p-4 sm:p-6 bg-[#191919]"
+        >
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+            <div className="w-full sm:w-1/2">
+              <h1
+                className="text-[24px] sm:text-[30px] font-bold leading-[36px] tracking-[0%] mb-4"
+                style={{ color: "#FFFFFF" }}
+              >
+                Our Achievements
+              </h1>
+              <p
+                className="text-[16px] sm:text-[18px] font-normal leading-[30px] tracking-[0%]"
+                style={{ color: "#FFFFFF" }}
+              >
+                Tala Prattoy upholds the art aspects of Durga Puja. Essence of
+                creativity combining the tools and methods of art and art
+                installations interpreting the formative stages of the festival.
+              </p>
+            </div>
+            <div className="w-full sm:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="flex flex-row items-center gap-3">
+                <span className="text-red-500 text-[40px] font-bold leading-[40px]">500k+</span>
+                <span className="text-[16px] text-white">Existing Partnerships</span>
+              </div>
+              <div className="flex flex-row items-center gap-3">
+                <span className="text-red-500 text-[40px] font-bold leading-[40px]">5m</span>
+                <span className="text-[16px] text-white">Existing Partnerships</span>
+              </div>
+              <div className="flex flex-row items-center gap-3">
+                <span className="text-red-500 text-[40px] font-bold leading-[40px]">100k+</span>
+                <span className="text-[16px] text-white">Existing Partnerships</span>
+              </div>
+              <div className="flex flex-row items-center gap-3">
+                <span className="text-red-500 text-[40px] font-bold leading-[40px]">5m</span>
+                <span className="text-[16px] text-white">Award Winning</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
