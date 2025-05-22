@@ -3,7 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 
 const Gallery: React.FC = () => {
-  // Array of image filenames in the specified order
   const imageRows = [
     ['Rectangle 45.png', 'Rectangle 51.png'],
     ['Rectangle 47.png', 'Rectangle 46.png'],
