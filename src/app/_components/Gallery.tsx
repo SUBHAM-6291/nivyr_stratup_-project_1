@@ -13,7 +13,7 @@ const Gallery: React.FC = () => {
   return (
     <div className="w-full bg-black px-4 py-8 text-center min-h-screen">
       <h1
-        className="text-4xl font-bold mb-4 text-white"
+        className="text-6xl font-bold mb-4 text-white"
         style={{ fontFamily: 'Josefin Sans, sans-serif' }}
       >
         Gallery
@@ -31,14 +31,14 @@ const Gallery: React.FC = () => {
               <div
                 key={imgIndex}
                 className={`flex-1 ${
-                  // Alternate widths based on rowIndex
+                 
                   rowIndex % 2 === 0
                     ? imgIndex === 0
-                      ? 'max-w-[60%]' // First image in even rows: more width
-                      : 'max-w-[40%]' // Second image in even rows: less width
+                      ? 'max-w-[60%]' 
+                      : 'max-w-[40%]' 
                     : imgIndex === 0
-                    ? 'max-w-[40%]' // First image in odd rows: less width
-                    : 'max-w-[60%]' // Second image in odd rows: more width
+                    ? 'max-w-[40%]' 
+                    : 'max-w-[60%]' 
                 } min-w-[120px] ${
                   rowIndex >= 1
                     ? imgIndex === 0
